@@ -1,6 +1,5 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
 // import { Range } from "react-range";
-import { useState } from "react";
 
 const Header = ({
 	token,
@@ -12,9 +11,9 @@ const Header = ({
 }) => {
 	const navigate = useNavigate();
 	const location = useLocation();
-	const changePrice = (event) => {
-		setPrices(event.target.value);
-	};
+	// const changePrice = (event) => {
+	// 	setPrices(event.target.value);
+	// };
 
 	// console.log(location);
 
