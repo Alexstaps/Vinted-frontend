@@ -7,7 +7,7 @@ import Cookies from "js-cookie";
 
 import Home from "./assets/pages/Home";
 import Offer from "./assets/pages/Offer";
-import SignUp from "./assets/pages/signUp";
+import SignUp from "./assets/pages/SignUp";
 import Login from "./assets/pages/Login";
 import Publish from "./assets/pages/Publish";
 import Payment from "./assets/pages/payment";
